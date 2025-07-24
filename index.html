@@ -7,5 +7,91 @@
 </head>
 <body>
     
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="about.html">A propos</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <section id="accueil">
+            <div>
+                <img src="./images/nescafe-gold-2.jpeg" alt="nescafe-gold">
+                <p>Id labore aute est laboris. Reprehenderit elit deserunt tempor enim est mollit. Incididunt deserunt incididunt labore eu sint ut dolore deserunt ipsum. Enim anim irure ad laboris consequat ex laborum eu amet sunt sint reprehenderit. Sunt magna officia ut commodo velit ea veniam exercitation qui. Nulla voluptate mollit laborum laborum et fugiat mollit amet et. Deserunt cupidatat aliqua Lorem dolore ipsum eu minim.</p>
+            </div>
+        </section>
+
+        <section id="apropos">
+            <ol>
+                <li>Nom: Moussa</li>
+                <li>Prénom: Koua</li>
+                <li>Email: moussa.koua@gmail.com</li>
+                <li>Numéro de téléphone: 203034878</li>
+                <li>
+                    Parcours Universitaire:
+                    <ol>
+                        <li>Licence en Informatique</li>
+                        <li>Master en Développement Web</li>
+                        <li>Doctorat en Intelligence Artificielle</li>
+                    </ol>
+                </li>
+            </ol>
+            <iframe 
+            width="1318"
+            height="641"
+            src="https://www.youtube.com/embed/z2jgLckP8O8" 
+            frameborder="0"
+            allowfullscreen
+            >
+
+            </iframe>
+
+        </section>
+
+        <section id="services">
+            <h2>Nos Services</h2>
+            <ul>
+                <li>Développement Web</li>
+                <li>Consultation en Informatique</li>
+                <li>Formation en Programmation</li>
+            </ul>
+        </section>
+
+        <section id="contact">
+            <h2>Contactez-nous</h2>
+            <form action="submit_form.php" method="post">
+                <label for="name">Nom:</label>
+                <input type="text" id="name" name="name" required>
+                <br>
+                <br>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <br>
+                <br>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                <br>
+                <br>
+
+                <button type="submit">Envoyer</button>
+            </form>
+        </section>
+
+
+
+    </main>
+
+
+
+
+
 </body>
 </html>
